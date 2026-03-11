@@ -6,6 +6,7 @@
     "node": ">=18.0.0"
   },
   "scripts": {
+    "preinstall": "npm config set registry https://registry.npmjs.org/",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
